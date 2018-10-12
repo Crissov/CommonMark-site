@@ -1,8 +1,6 @@
 /** Defaults */
 body { 
-  font-family: Helvetica, Arial, Freesans, clean, sans-serif;
-  font-size: 13pt;
-  line-height: 1.4;
+  font: 13pt/1.4 Helvetica, Arial, Freesans, clean, sans-serif;
   max-width: 48em;
   margin: auto;
   color: #333;
@@ -81,14 +79,12 @@ a.footnoteRef > sup {
 
 /** Dingus */
 a.dingus { 
-  color: red;
   cursor: pointer;
   line-height: 30px;
   margin-left: 1em;
   padding: 4px 7px;
-  color: #FFF;
-  background-color: #33C3F0;
-  box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  color: red; background-color: #33C3F0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-color: #4FCAEF;
   border-bottom: 2px #2A9EC1 solid;
   border-right:  2px #2A9EC1 solid;
@@ -105,7 +101,7 @@ a.dingus {
       line-height: 1.2;
       font-size: 10pt;
     }
-  .column pre  { font-size: 9pt; }
+  .column pre, 
   div.examplenum { font-size: 9pt; }
   a.dingus { display: none; }
 }
